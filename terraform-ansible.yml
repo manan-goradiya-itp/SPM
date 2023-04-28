@@ -5,7 +5,7 @@
       shell: sudo rm -rf ~/Software_Project_Major
 
     - name: pull
-      shell: sudo git clone https://github.com/Sakshi-Zalavadia-itp/Software_Project_Major.git
+      shell: sudo git clone https://github.com/manan-goradiya-itp/SPM.git
       
     - name: docker kill
       shell: sudo docker stop ansapp || true && sudo docker rm ansapp || true
